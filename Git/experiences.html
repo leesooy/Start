@@ -1,0 +1,202 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <title>Soo Website</title>
+ <link rel="stylesheet" href="css/styles.css">
+ <style>
+   .filterDiv {
+  float: left;
+  display:none;
+  background-color:#ffb3e6;
+  color: #ffffff;
+  width: 100px;
+  line-height: 70px;
+  text-align: center;
+  margin: 10px;
+  -webkit-border-radius: 25px;
+	border-radius: 25px;}
+
+.show {
+  display: block;
+}
+
+.container{
+  margin-top: 20px;
+  overflow: hidden;
+  }
+
+
+.btn{
+  
+  font-family:'Courier New', Courier, monospace;
+  border: 1px solid #f3f3f3;
+  outline: none;
+  background-color:#f1f1f1f1;
+  padding: 20px 20px;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 25px;
+  border: 2px solid black;
+}
+
+.btn:hover {background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+.filter{border:2px solid black;
+        margin:20px;
+        padding-left:20px;}
+
+a:link{color:blue;}
+a:visited{color:purple;}
+a:focused{background-color:#3399ff;}
+
+.container{font-family:'Courier New', Courier, monospace;}
+   </style>
+</head>
+
+<body>
+  <main class="main">
+<header role="banner">
+  <h1>Welcome to Soo's Website</h1>
+  <nav>
+    <a href="intro.htm" title="Introduction">About</a>
+    <a href="experiences.html" title="experiences">Experiences</a>
+    <a href="hobbies.html" title="hobbies">Hobbies</a>
+  </nav>
+</header>
+ <section class="filter">
+ <h1> Education and Experiences</h1>
+<p> Feel free to explore my passionis in education and careers. <strong>The search filters</strong>will let you choose criteria below. Click the filtered results in a pink box for further information.</p> 
+ 
+
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('education')">Educations</button>
+  <button class="btn" onclick="filterSelection('career')"> Careers</button>
+  <button class="btn" onclick="filterSelection('technology')">Technology</button>
+  <button class="btn" onclick="filterSelection('Korean')">Language</button>
+  <button class="btn" onclick="filterSelection('volunteer')"> Volunteer</button>
+</div>
+</section>
+
+<button onclick="topfunction()" id="top" title="Go to top">Top</button>
+<div id="myBtnContainer">
+<div class="container">
+  <div class="filterDiv technology career"><a href="#content1">LTEC</a></div>
+  <div class="filterDiv technology career"><a href="#content2">TA</a></div>
+  <div class="filterDiv volunteer technology"><a href="#content3">BCH</a></div>
+  <div class="filterDiv volunteer technology Korean"><a href="#content4">KLF</a></div>
+  <div class="filterDiv Korean career"><a href="#content5">ICC</a></div>
+  <div class="filterDiv Career Korean"><a href="#content6">Teacher</a></div>
+  <div class="filterDiv career technology Korean "><a href="#content7">Radio</a></div>
+   </div>
+</section>
+
+<section>
+  <h2 id="content1">Learning Design and Technology(LTEC)</h2>
+  <p>Achieved the Master's degree in Education for Usability Study of tutorial webdesign based on User-Experience(UX) in May 2019. Main interests are,not limited to but including, instructional designs to develop Distance Education courses using open online resources such as <a href ="https://leesooy.wixsite.com/farexercise" target="_blank">Exercise Guide Website for Cancer Survivors</a>, <a href="https://leesooy.wixsite.com/dlpt-korean-vocab" target="_blank">Online Course for Defense Language Prophiciency Test of Korean</a>. 2017-2019 Foundation scholarship beneficiary at the East-West Center in the University of Hawaii</p>
+  <a href="#top">Go To Top</a>
+</section>
+
+<section>
+  <h2 id="content2">Teaching Assistant at UH</h2>
+  <p>I have become a TA at <a href="https://dcdc.coe.hawaii.edu/ltec/112/welcome/" target="_blank">"LTEC 112: Technologies for Academic Success"</a> since fall semester 2019. This course is an asynchronous online course that covers technology tools for college students to help students achieve academic success. I have assisted an instructor to grade students' assignments, clarify their questions, help them troubleshoot their computer/technical problems, and effectively communicate with instructors and students using multimedia.</p>
+  <a href="#top">Go To Top</a>
+</section>
+
+<section>
+  <h2 id="content3">Volunteer Web Designer for Breast Cancer Hawaii</h2>
+  <p><a href="https://www.breastcancerhawaii.org/" target="_blank">BCH</a>is the reason why I started learning computer programming code. I would like to become a part of BCH by sharing my talents. Joanne, the co-founder of BCH requested me to develop the search filter in the website for cancer support groups which could be very useful for web users. I made hundreds of mistakes that sometimes led me into a swamp of despair and giving-up stage; however, I learned my progress would be made by maturity of despairs. I did it and that's how I develop this website from scratch.<p>  
+  <a href="#top">Go To Top</a>
+</section>
+
+<section>
+  <h2 id="content4">Volunteer Media Supporter for Korean Library</h2>
+  <a href="#top">Go To Top</a>
+<p>I have committed to <a href="https://www.librarieshawaii.org/2017/01/30/moons-honored-on-korean-library-foundations-20th-anniversary-pledge-1-million-for-korean-language-collection/" target="_blank">the Korean Library Foundation (KLF)</a>, which is located in the McCully-Moiliili library. 
+  Korean Library Foundation (KLF) has been acknowledged for its largest Korean book collections as well as the only Korean library in the U.S. KLF was founded with donations from Korean book advocates; therefore, volunteers like me can play a very fundamental factor in continuously thriving.
+  I have been a devoted volunteer since 2014; two hours volunteer every Thursday. During volunteer works, I am responsible for shelving and organizing Korean books by following Korean
+  alphabetical order. Additionally, I am in charge of designing brochures that represent KLF’s mission as a board member of KLF committee. The brochure design job has been developed at home using my computer devices as well as design software. I am actively involved in improving KLF community services by presenting monthly committee meetings. 
+  </p>
+</section>
+
+<section>
+  <h2 id="content5">Korean Instructor at Intercultural Communications College Hawaii</h2>
+  <p>I had worked for <a href="https://icchawaii.edu/foreign-language-courses/korean-language-courses/" target="_blank">ICC</a> as a Korean instructor contractor for 3 years. I am fluent in Korean and English in skills of writing,speaking,reading, and listening as a Hawaii judiciary court interpreter. I Assisted to develop the ICC foreign language curriculum for Beginner level 1 to level 6 based on my teaching experiences of Korean courses from March to May, 2019(3 months). My main jobs were to provide learning objectives of each chapter in the text book, introduce classroom interactions such as hands-on and online activities, and create assessment items.</p>
+
+  <p>My main jobs as an instructor, I developed course syllabus, interactive class activities, lesson presentations, and assessment/quiz items using educational technology such as Learning Management Platform(Canvas Instruction, Wix website development) and applications( online evaluation form, online flashcard, online journal writing). Each course was held 6 hours a day, 6-8 weeks per session. I mainly taught preparation courses for the Defense Language Proficiency Test(DLPT) of Korean which consists of Reading and Listening comprehension areas using multimedia. To enhance students' comprehension skills, some learning materials of video and audio were modified using software such as a video editor, sound effect editor, and screen recorder. (Jan. 2016 - May 2019)<p>
+    
+  <p>Teaching more than 1,000 hours of language lessons for a variety of professionals based on their Inter-agent Language Roundtable(ILR) level has empowered my belief to education. Most important thing I have gained throughout these experiences is that I can be also a student learning from my students, co-teachers, and system.
+    </p>
+  <a href="#top">Go To Top</a>
+</section>
+
+<section>
+  <h2 id="content6">UX Study Assistant</h2>
+<p>I Assisted the research of <a href="https://math.crdg.hawaii.edu/dev/" target="_blank">the Developing Teaching Expertise @ Mathematics (Dev-TE@M) project</a> which was a collaboration with the University of Michigan School of Education(March to May 2017). Main jobs I did were to collect data of the pilot program which was a set of practice-focused professional development modules for in-service elementary mathematics teachers. Additionally, I recorded teacher educators and professional developers during the real-time seminars (face-to-face) or webinars (using conferencing technologies) in their school, university courses, and their workshops.</p>
+<p>The most interesting part to work was to review the Dev-TE@M web site and online modules in order to provide suggestions on how well these fit with users’ needs based on User Experience examination skills that I gained at school. Often engaged into Collaboration with other members from CRDG and Michigan Univeristy to analyze recorded data using codes during online and offline conferences. For data management, I encrypted, uploaded, and organized data to the department main server so that both University of Hawaii and the University of Michigan teams could access in a secure way.</p>
+  <a href="#top">Go To Top</a>
+</section>
+
+<section>
+  <h2 id="content7">Radio Commercial Editor at <a href="https://www.radioseoul1650.com/wp-content/uploads/2019/07/Radio-Seoul-Media-Kit-ENG.pdf" target="_blank">Radio Seoul Hawaii</a></h2>
+  <p>It was my first job that I got in U.S(2015). I produced radio commercial advertisements and delivered Hawaii news in Korean in the radio station, "Radio Seoul(AM 1540)", whose target audience is consumers of Korean business and entities in Hawaii. It usually ran 30-45 second per commercial and was required technology skill to edit.
+I loved to participate in commercials as a voice actress. In addition,I created news scripts which were translated from English to Korea to broadcast the radio news.</p>
+  <a href="#top">Go To Top</a>
+</section>
+
+
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+</main>
+</body>
+</html>
+
